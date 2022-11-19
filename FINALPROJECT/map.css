@@ -1,0 +1,25 @@
+body{
+    background: paleturquoise;
+}
+
+.mapdiv{
+    width: 100%;
+    margin: auto;
+}
+
+.mapdiv path{
+    fill: #FB6F92;
+    stroke-width: 0.25;
+  stroke: #2A9D8F;
+  stroke-width: 4px;
+  stroke-dasharray: 2,2;
+  stroke-linejoin: round;
+}
+
+.mapdiv path:hover{
+    fill: #EF476F;
+    transition: 1ms;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {}

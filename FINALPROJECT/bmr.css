@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
+
+.bmr-calculator {
+    max-width: 300px;
+    font-family: "Poppins", sans-serif;
+    padding: 8px 24px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);
+    font-family: "poppins" , "lora" , "dancing script";
+    background-color: #B08968;
+  }
+  
+.bmr-calculator,
+.bmr-calculator * {
+  box-sizing: border-box;
+  }
+  
+.bmr-calculator h2{
+  border: 8px 
+  solid #FB6492; 
+  background-color: #F8EDEB;
+  text-align: center; 
+  border-radius:15px;
+  }
+  
+  .bmr-calculator form h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 16px 0 10px 0;
+    border: 3px 
+    solid #FB6492; 
+    background-color: #F8EDEB;
+    text-align: center; 
+    border-radius:15px;
+  }
+  
+.bmr-calculator form input[type="text"] {
+  width: 100%;
+  padding: 4px 16px;
+  font-size: 24px;
+  border: 2px 
+  solid #d5dbdd;
+  text-align: center; 
+  border-radius:15px;
+  }
+  
+  .bmr-calculator form input[type="text"].invalid {
+    border: 5px solid red;
+  }
+  
+  .bmr-calculator form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .bmr-calculator form #female {
+    margin-left: 20px;
+  }
+  
+  .bmr-calculator form .height,
+  .bmr-calculator form .weight {
+    position: relative;
+  }
+  
+  .bmr-calculator form .unit {
+    position: absolute;
+    right: 20px;
+    top: 65px;
+    color: grey;
+  }
+  
+  .bmr-calculator .result{
+    padding: 8px 24px;
+    margin: 16px 0;
+    font: "Poppins";
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+  }
+
+  .calculate-btn {
+  border: 8px 
+  solid #FB6492; 
+  background-color: #F8EDEB;
+  text-align: center; 
+  border-radius:15px;
+  padding: 8px 24px;
+  margin: 16px 0;
+  font-family: "Poppins";
+  font-size: 25px;
+  }
+  
+  .bmr-calculator .result {
+    text-align: center;
+    color: #005F73;
+    font-size: 20px;
+  }
+
+  .calculate-btn:hover {
+    color: #EF476F;
+  }
+  
+  .bmr-calculator .result .calories {
+    color: #005F73;
+    font-size: 38px;
+    font-weight: 900;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  .bmr-calculator .result .error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+  
+  .bmr-calculator .result .error-message.active {
+    display: block;
+  }
