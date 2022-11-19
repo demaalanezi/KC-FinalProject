@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap");
+
+html, body{
+    height: 100%;
+    width: 99.5%;
+    color: #001523;
+    background-color: #F8EDEB;
+    font-family: "poppins" , "lora" , "dancing script";
+  }
+  
+  button{
+    font: "Poppins";
+  }
+
+.recipe-container{
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 500px;
+  overflow: hidden;
+}
+
+#recipe{
+  border: 6px 
+  solid #FB6492; 
+  background-color: #F8EDEB;
+  text-align: center; 
+  border-radius:15px;
+}
+
+.grocery-container{
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 500px;
+  overflow: hidden;
+}
+
+#grocery{
+  border: 6px 
+  solid #FB6492; 
+  background-color: #F8EDEB;
+  text-align: center; 
+  border-radius:15px;
+}
+ 
+#addbutton{
+  margin-block: 20px;
+  color: #001523;
+  cursor: pointer;
+  padding: 1.3rem;
+  border: 6px 
+  solid #FB6492; 
+  background-color: #F8EDEB; 
+  border-radius:15px;
+  font: "Poppins";
+}
+
+#grocery-input-field{
+  margin-block: 20px;
+  color: #001523;
+  cursor: pointer;
+  padding: 1.3rem;
+  border: 6px 
+  solid #FB6492; 
+  background-color: #F8EDEB; 
+  border-radius:15px;
+}
+
+#search{
+  margin-block: 20px;
+  color: #001523;
+  cursor: pointer;
+  padding: 1.3rem;
+  border: 6px 
+  solid #FB6492; 
+  background-color: #F8EDEB; 
+  border-radius:15px;
+}
+
+#submitButton{
+  margin-block: 20px;
+  color: #001523;
+  cursor: pointer;
+  padding: 1.3rem;
+  border: 6px 
+  solid #FB6492; 
+  background-color: #F8EDEB; 
+  border-radius:15px;
+}
+
+#recipe_section{
+  position: fixed;
+  text-align: center; 
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+  

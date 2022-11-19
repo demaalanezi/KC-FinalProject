@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Recipe Generator</title>
+  <link rel="shortcut icon" href="pics/tumblr_mjtottMnfC1s7umblo1_1280.png" type="image/x-icon">
+  <link href="recipe.css" rel="stylesheet" type="text/css" />
+</head>
+
+  <div class="row">
+    <div class="has-text-centered" id="hero">
+      <div container="recipesearch" id="recipe">
+      <div class="hero-body">
+        <h2 class="subtitle">
+          Enter Your Ingredients
+        </h2>
+        <input id="search" class="primary-input" type="text"
+          placeholder="banana apple oatmeal" />
+	          <br>
+          <h4>Dietary Retrictions</h4>
+        </div>
+        <label for="high-protein">
+          <input type="checkbox" id="Check1" name="high-protein" onclick="selectOnlyThis(this.id)"> High Protein
+        </label>
+        <label for="low-carbohydrate">
+          <input type="checkbox" id="Check2" name="low-carbohydrate" onclick="selectOnlyThis(this.id)">
+          Low Carb
+        </label>
+        <label for="ketogenic">
+          <input type="checkbox" id="Check3" name="ketogenic" onclick="selectOnlyThis(this.id)"> Keto </label>
+        <label for="vegetarian">
+          <input type="checkbox" id="Check4" name="vegetarian" onclick="selectOnlyThis(this.id)"> Vegetarian </label>
+        <label for="vegan">
+          <input type="checkbox" id="Check5" name="vegan" onclick="selectOnlyThis(this.id)"> Vegan </label>
+		<br>
+        <div class="search"> <button class="submit-button" id="submitButton">
+            Search
+          </button>
+        </div>
+
+        <div class="recipe-is-below">
+          <h2>Your recipe is below!</h2>
+        </div>
+      </div>
+
+        <div id="recipe_section">
+        </div>
+        <div class="name">
+          <h3 id="recipe-name"></h3>
+        </div>
+        <img id="recipe-image" />
+        <div class="img" id="recipe-link">
+        </div>
+        <div id="recipe-calories"></div>
+        <br>
+      </div>
+    </div>
+    <div class="grocery-portion">
+      <div container="grocerylist" id="grocery">
+      <br>
+      <strong class="list"> <h2>Grocery List</h2></strong>
+      <p>Add Missing Ingredients Here</p>
+      <input id="grocery-input-field" class="groceries-input" type="text"
+        placeholder="ex. banana"/>
+      <button class="add-button" id="addbutton"> Add </button>
+      <div>
+        <ul>
+          <div id="grocery-list">
+          </div>
+      </div>
+      </ul>
+    </div>
+    </div>
+  </div>
+  <script src="recipe.js" defer></script>
+</body>
+</html>
